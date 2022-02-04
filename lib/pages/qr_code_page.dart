@@ -20,7 +20,6 @@ class _QrCodePageState extends State<QrCodePage> {
       body: Center(
         child: QrImage(
           data: "http://onelink.to/nfq396",
-          version: QrVersions.auto,
           size: 250.0,
         ),
       ),
